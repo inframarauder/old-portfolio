@@ -23,7 +23,37 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+#scroll:hover {
+  background-color: #2d2d2d;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
 .top-section {
   position: relative;
   display: flex;
@@ -126,7 +156,7 @@ nav ul {
 .menu-brand .portrait {
   width: 200px;
   height: 200px;
-  background: url("./images/image2.jpg");
+  background: url("./images/image3.jpg");
   background-size: cover;
   border-radius: 100px;
   border: solid 3px #17a2b9;
