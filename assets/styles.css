@@ -58,9 +58,9 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
   background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .top-section::after {
@@ -245,7 +245,7 @@ nav ul {
 .projects-section,
 .certifications-section,
 .contact-section {
-  min-height: 60vh;
+  min-height: 100vh;
   padding: 2%;
   font-size: 1.2rem;
 }
@@ -278,4 +278,9 @@ nav ul {
 .skill-list {
   list-style-type: none;
   padding: 5%;
+}
+
+#footer {
+  background: #2d2d2d;
+  padding: 10px;
 }
