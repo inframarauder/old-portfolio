@@ -77,7 +77,7 @@
         
     </div>
     <div class="about-section" id='about'>
-      <legend class="text-center text-info display-4">About Me:</legend>
+      <legend class="text-center text-dark display-4">About Me:</legend>
       <hr>
       <div class="container">
           <div class="row">
@@ -93,7 +93,7 @@
               </div>
               <div class="col-sm-8">
                 <p>
-                 <h2 id="myName"> Hi, I'm Subhasis. </h2><br>
+                 <h2 id="myName" class="text-primary"> Hi, I'm Subhasis. </h2><br>
                   I'm a student from Kolkata who freelances as a developer.
                   I'm currently pursuing my bachelor's from <a href="http://www.heritageit.edu.in"  target="_blank" class="text-primary">Heritage
                   Institute of Technology </a> in Computer Science and Engineering, with graduation due in 2021.
@@ -113,12 +113,12 @@
     </div>
 <!--Skills-->
     <div class="skills-section" id="skills">
-        <legend class="text-center text-info display-4">Skills:</legend>
+        <legend class="text-center text-dark display-4">Skills:</legend>
         <hr />
         <div class="container">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Basic Web Technologies</h5>
+              <h5 class="card-title text-primary">Basic Web Technologies</h5>
               <p class="card-text">
                 <small>
                     Thorough knowledge and experience of HTML,CSS,Javascript,jQuery & Bootstrap.
@@ -130,7 +130,7 @@
           <br />
           <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Backend using Node.js</h5>
+                <h5 class="card-title text-primary">Backend using Node.js</h5>
                 <p class="card-text">
                   <small>
                       Well experienced in building REST APIs using Node.js, Express and MongoDB.
@@ -142,20 +142,20 @@
           <br />
           <div class="card">
               <div class="card-body">
-                <h5 class="card-title">DevOps</h5>
+                <h5 class="card-title text-primary">DevOps</h5>
                 <p class="card-text">
                   <small>
                       Knowledge of deploying applications to production and maintaing them on a cloud platform <br>
                       (like AWS,GCP,Digital Ocean,Heroku).
                   </small>
-                 <small class="text-primary" style="float: right;">INTERMEDIATE</small>                              
+                 <small class="text-info" style="float: right;">INTERMEDIATE</small>                              
                 </p>
               </div>
           </div>
           <br />
           <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Miscellaneous</h5>
+                <h5 class="card-title text-primary">Other Skills</h5>
                 <p class="card-text">
                   <small>
                      React, Firebase, Python(Flask), Blockchain(Ethereum & Web3.js), Tensorflow.js .
@@ -168,141 +168,148 @@
         </div>
     </div>
     <div class="projects-section" id="projects">
-      <legend class="text-center text-info display-4">Projects:</legend>
+      <legend class="text-center text-dark display-4">Projects:</legend>
       <hr />
-      <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Workagain</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://workagain.in" target="_blank">
-                  <img src="./assets/images/project1.PNG" style="width: 80%;">
-                </a>
+      <div class="container">
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">Workagain</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Backend Developer</h6>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a href="https://workagain.in" target="_blank">
+                      <img src="./assets/images/project1.PNG" style="width: 80%;">
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <p>
+                          Workagain is a website providing every willing and able elderly citizen of this country the opportunity to work again.
+                      </p>
+                      <p>
+                        I created the backend API for the website using Node.js and MongoDB and deployed it to Digital Ocean.
+                      </p>
+                      <a href="https://workagain.in" target="_blank" class="card-link">Visit Website</a>
+                  </div>
+                </div> 
               </div>
-              <div class="col-sm-6">
-                  <p>
-                      Workagain is a website providing every willing and able elderly citizen of this country the opportunity to work again.
-                  </p>
-                  <p>
-                    I created the backend API for the website using Node.js and MongoDB and deployed it to Digital Ocean.
-                  </p>
-                  <a href="https://workagain.in" target="_blank" class="card-link">Visit Website</a>
+          </div>
+          <br>
+          <div class="card" >
+              <div class="card-body" >
+                <h5 class="card-title text-center text-primary">ORSI</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Backend Developer</h6>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                           Operational Research Society of India(ORSI) is a forum/club for researchers & enthusiasts in the field of operational research.
+                        </p>
+                        <p>
+                          I created the backend API , the entire member management and the report generation system using Node.js,MongoDB and React and deployed it to Digital Ocean.
+                        </p>
+                        <a href="https://orsihq.in" target="_blank" class="card-link">Visit Website</a>
+                    </div>
+                  <div class="col-sm-6">
+                    <a href="https://orsihq.in" target="_blank">
+                      <img src="./assets/images/project2.PNG" style="width: 80%;">
+                    </a>
+                  </div>
+                </div> 
               </div>
+          </div>
+          <br>
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">Wesasships</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Full Stack Developer</h6>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a href="http://www.wesasships.com" target="_blank">
+                      <img src="./assets/images/project3.PNG" style="width: 80%;">
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <p>
+                        A website that lets student find internships and lets employers hire verified interns.
+                      </p>
+                      <p>
+                        I created the entire website (frontend &  backend) single handedly,from scratch and deployed it to heroku.
+                      </p>
+                      <p>
+                        <small>
+                          This website is not maintained by the owner anymore,but still active.  
+                        </small>
+                      </p>
+                      <a href="http://www.wesasships.com" target="_blank" class="card-link">Visit Website</a>
+                  </div>
+                </div> 
+              </div>
+          </div>
+          <br>
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">HIT Crunch</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Backend Developer</h6>
+                <div class="row">
+                  <div class="col-sm-6">
+                      <p>
+                        An android app for the students of Heritage Institute of Technology that helps in sharing notes,announcements and notices.
+                      </p>
+                      <p>
+                        I created the backend of the API which helps in fetching the notices and announcements and also wrote cloud functions on Firebase to enable push notifications.
+                      </p>
+                      <a href="https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_US" target="_blank" class="card-link">View App on Playstore</a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_US" target="_blank">
+                      <img src="./assets/images/project4.PNG" style="width: 80%;">
+                    </a>
+                  </div>
+                </div> 
+              </div>
+          </div>
+          <br>
+          
+            <p style="font-size:1rem;" class="text-center">
+                <a class="github-button" target="_blank" href="https://github.com/subhasis020299" data-size="large" aria-label="Follow @subhasis020299 on GitHub">Follow me on GitHub for more.</a>
+            </p>
+        </div>
+        <div class="certifications-section" id="certifications">
+          <legend class="text-center text-dark display-4">Certifications:</legend>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4"style="margin-bottom:5px;">
+              <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
+                <div class="card-body"style="font-size: 1rem;">
+                    <h6 class="card-title text-info">Full Stack Web Development</h6>
+                    <p class="card-text" >Took a course on full stack web development using Node.js from Udemy.</p><br>
+                    <a target="_blank" href="https://drive.google.com/open?id=1octd4K3qrBCoWPMw7rVBCviMPvszqIMn" class="text-info">View Certificate.</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4"style="margin-bottom:5px;">
+              <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
+                <div class="card-body"style="font-size: 1rem;">
+                    <h6 class="card-title text-info">Node.js</h6>
+                    <p class="card-text" >Took a specialized Node.js and MongoDB course on building RESTful APIs from Udemy.</p><br>
+                    <a  target="_blank" href="https://drive.google.com/open?id=1x210qWUEzQdcXYQuib1zfbJsrrDQfyxH" class="text-info">View Certificate.</a>
+                </div>
+            </div>
             </div> 
+            <div class="col-sm-4"style="margin-bottom:5px;">
+              <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
+                <div class="card-body"style="font-size: 1rem;">
+                    <h6 class="card-title text-info">Tensorflow.js</h6>
+                    <p class="card-text" >Learnt how to apply ML algorithms in JavaScript on client as well as server side.</p><br>
+                    <a target="_blank" href="https://drive.google.com/open?id=1x210qWUEzQdcXYQuib1zfbJsrrDQfyxH" class="text-info">View Certificate.</a>
+                </div>
+            </div>
+            </div>
           </div>
       </div>
-      <br>
-      <div class="card" >
-          <div class="card-body" >
-            <h5 class="card-title">ORSI</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://orsihq.in" target="_blank">
-                  <img src="./assets/images/project2.PNG" style="width: 80%;">
-                </a>
-              </div>
-              <div class="col-sm-6">
-                  <p>
-                     Operational Research Society of India(ORSI) is a forum/club for researchers & enthusiasts in the field of operational research.
-                  </p>
-                  <p>
-                    I created the backend API , the entire member management and the report generation system using Node.js,MongoDB and React and deployed it to Digital Ocean.
-                  </p>
-                  <a href="https://orsihq.in" target="_blank" class="card-link">Visit Website</a>
-              </div>
-            </div> 
-          </div>
-      </div>
-      <br>
-      <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Wesasships</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="http://www.wesasships.com" target="_blank">
-                  <img src="./assets/images/project3.PNG" style="width: 80%;">
-                </a>
-              </div>
-              <div class="col-sm-6">
-                  <p>
-                    A website that lets student find internships and lets employers hire verified interns.
-                  </p>
-                  <p>
-                    I created the entire website (frontend &  backend) single handedly,from scratch and deployed it to heroku.
-                  </p>
-                  <a href="http://www.wesasships.com" target="_blank" class="card-link">Visit Website</a>
-              </div>
-            </div> 
-          </div>
-      </div>
-      <br>
-      <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">HIT Crunch</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_US" target="_blank">
-                  <img src="./assets/images/project4.PNG" style="width: 80%;">
-                </a>
-              </div>
-              <div class="col-sm-6">
-                  <p>
-                    An android app for the students of Heritage Institute of Technology that helps in sharing notes,announcements and notices.
-                  </p>
-                  <p>
-                    I created the backend of the API which helps in fetching the notices and announcements and also wrote cloud functions on Firebase to enable push notifications.
-                  </p>
-                  <a href="https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_US" target="_blank" class="card-link">View App on Playstore</a>
-              </div>
-            </div> 
-          </div>
-      </div>
-      <br>
-      
-        <p style="font-size:1rem;" class="text-center">
-            <a class="github-button" target="_blank" href="https://github.com/subhasis020299" data-size="large" aria-label="Follow @subhasis020299 on GitHub">Follow me on GitHub for more.</a>
-        </p>
     </div>
-    <div class="certifications-section" id="certifications">
-      <legend class="text-center text-info display-4">Certifications:</legend>
-      <hr />
-      <div class="row">
-        <div class="col-sm-4"style="margin-bottom:5px;">
-          <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
-            <div class="card-body"style="font-size: 1rem;">
-                <h6 class="card-title text-info">Full Stack Web Development</h6>
-                <p class="card-text" >Took a course on full stack web development using Node.js from Udemy.</p><br>
-                <a target="_blank" href="https://drive.google.com/open?id=1octd4K3qrBCoWPMw7rVBCviMPvszqIMn" class="text-info">View Certificate.</a>
-            </div>
-        </div>
-        </div>
-        <div class="col-sm-4"style="margin-bottom:5px;">
-          <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
-            <div class="card-body"style="font-size: 1rem;">
-                <h6 class="card-title text-info">Node.js</h6>
-                <p class="card-text" >Took a specialized Node.js and MongoDB course on building RESTful APIs from Udemy.</p><br>
-                <a  target="_blank" href="https://drive.google.com/open?id=1x210qWUEzQdcXYQuib1zfbJsrrDQfyxH" class="text-info">View Certificate.</a>
-            </div>
-        </div>
-        </div> 
-        <div class="col-sm-4"style="margin-bottom:5px;">
-          <div class="card" style="width: 18rem; border:1px solid #17a2b9; border-radius:4px;">
-            <div class="card-body"style="font-size: 1rem;">
-                <h6 class="card-title text-info">Tensorflow.js</h6>
-                <p class="card-text" >Learnt how to apply ML algorithms in JavaScript on client as well as server side.</p><br>
-                <a target="_blank" href="https://drive.google.com/open?id=1x210qWUEzQdcXYQuib1zfbJsrrDQfyxH" class="text-info">View Certificate.</a>
-            </div>
-        </div>
-        </div>
-      </div>
 
-    </div>
     <div class="contacts-section" id="contact">
-        <legend class="text-center text-info display-4">Contact Me:</legend>
+        <legend class="text-center text-dark display-4">Contact Me:</legend>
         <hr />
         <div class="text-center" style="font-size:1.2rem;">
             <p><i class="fa fa-phone text-info"></i><span class="text-info"> <a href="tel:9038955740">9038955740</a> </span></p>
